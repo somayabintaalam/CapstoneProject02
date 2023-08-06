@@ -1,0 +1,105 @@
+.profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+ 
+}
+p{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+    text-align: justify;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.jobs {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+}
+div>div>h1{
+    color: gray;
+}
+.experience02{
+    margin-top: 14px;
+
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+  
+
+
+
+
+@media (max-width: 600px) {
+    .skills {
+      grid-template-columns: 1fr; 
+      margin-left: 0; 
+    }
+    .parent {
+        grid-template-columns: 1fr; 
+        width: 90%; 
+        margin: 50px auto 0 auto; 
+      }
+    .btn {
+        font-size: 14px;
+      }
+    .container{
+        max-width: 540px;
+    }
+  }
+
+
+
+
+
+
+
+
